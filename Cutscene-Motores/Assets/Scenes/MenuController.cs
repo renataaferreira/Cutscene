@@ -3,14 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    // Chamado quando o botão "Jogar" é clicado
     public void Jogar()
     {
-        SceneManager.LoadScene("Game");
-        // ou SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Cutscene-Motores"); // coloque aqui o nome exato da sua cena
     }
 
-    // Chamado quando o botão "Sair" é clicado
     public void Sair()
     {
         Application.Quit();
