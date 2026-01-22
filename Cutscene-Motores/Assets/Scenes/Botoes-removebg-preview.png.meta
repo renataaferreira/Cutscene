@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0413f28b1aab0a14abcc62a266a55916
+guid: 6fd3681187720e14688b88893f2824a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 983635683126620737
-    second: Gemini_Generated_Image_sbfe7dsbfe7dsbfe (1)_0
+      213: -8044265776148806059
+    second: Botoes-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Image_sbfe7dsbfe7dsbfe (1)_0
+      name: Botoes-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1344
-        height: 768
+        x: 267
+        y: 395
+        width: 204
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1423929317396ad00800000000000000
-      internalID: 983635683126620737
+      spriteID: 55681dd95e60d5090800000000000000
+      internalID: -8044265776148806059
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Gemini_Generated_Image_sbfe7dsbfe7dsbfe (1)_0: 983635683126620737
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

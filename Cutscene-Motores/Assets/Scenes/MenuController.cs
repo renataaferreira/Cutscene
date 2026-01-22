@@ -5,7 +5,8 @@ public class MenuController : MonoBehaviour
 {
     public void Jogar()
     {
-        SceneManager.LoadScene("Cutscene-Motores"); // coloque aqui o nome exato da sua cena
+        // Ajustado para o caminho exato que aparece no seu Build Profile
+        SceneManager.LoadScene("Scenes/Cutscene-Motores");
     }
 
     public void Sair()
