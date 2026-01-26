@@ -205,6 +205,8 @@ GameObject:
   - component: {fileID: 700087253}
   - component: {fileID: 700087252}
   - component: {fileID: 700087251}
+  - component: {fileID: 700087254}
+  - component: {fileID: 700087255}
   m_Layer: 0
   m_Name: valac-BossFinal
   m_TagString: Untagged
@@ -298,12 +300,61 @@ Transform:
   m_GameObject: {fileID: 700087250}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.2119, y: -2.1989, z: 0}
+  m_LocalPosition: {x: 7.62, y: -2.47, z: 0}
   m_LocalScale: {x: 0.3667364, y: 0.38204494, z: 1.150064}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700087254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700087250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4169b9f1f4a96a3439df08332159acd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &700087255
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700087250}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3.5799997, y: 9.249999}
+  m_Direction: 0
 --- !u!1 &772397982
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +634,8 @@ GameObject:
   - component: {fileID: 924735825}
   - component: {fileID: 924735824}
   - component: {fileID: 924735823}
+  - component: {fileID: 924735827}
+  - component: {fileID: 924735826}
   m_Layer: 0
   m_Name: SapoEsqueleto
   m_TagString: Untagged
@@ -676,12 +729,61 @@ Transform:
   m_GameObject: {fileID: 924735822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.47, y: -2.68, z: 0}
+  m_LocalPosition: {x: 5.29, y: -2.82, z: 0}
   m_LocalScale: {x: 0.43965998, y: 0.43965998, z: 0.43965998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &924735826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924735822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4169b9f1f4a96a3439df08332159acd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &924735827
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924735822}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3.95, y: 6.03}
+  m_Direction: 0
 --- !u!1 &1081611028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1333,7 @@ Transform:
   m_GameObject: {fileID: 1484678322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4672, y: -2.9403, z: 0}
+  m_LocalPosition: {x: -7.68, y: -3.37, z: 0}
   m_LocalScale: {x: 0.5328, y: 0.675, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1361,6 +1463,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1257101811}
+  - {fileID: 1484678324}
   - {fileID: 772397985}
   - {fileID: 786852381}
   - {fileID: 1438480400}
@@ -1369,4 +1472,3 @@ SceneRoots:
   - {fileID: 1954731439}
   - {fileID: 700087253}
   - {fileID: 924735825}
-  - {fileID: 1484678324}
