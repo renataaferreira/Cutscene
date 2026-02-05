@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quadro0018_0: -7468116571943625343
+      quadro0018_1: 3653006268516849559
+      quadro0018_2: -5458085177321678081
+      quadro0018_3: 5491175485396098073
+      quadro0018_4: -7171528837470952474
+      quadro0018_5: 6873996679124380202
+      quadro0018_6: 2131939894272609234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
