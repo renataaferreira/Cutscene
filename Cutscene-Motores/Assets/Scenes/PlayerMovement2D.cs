@@ -52,8 +52,8 @@ public class PlayerMovement2D : MonoBehaviour
         // =========================
         // ANIMAÇÕES
         // =========================
-        anim.SetBool("isRunning", h != 0);
-        anim.SetBool("isGrounded", isGrounded);
+        anim.SetBool("IsRunning", h != 0);
+        anim.SetBool("IsGrounded", isGrounded);
 
         // =========================
         // PULO
