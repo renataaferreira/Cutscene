@@ -30499,7 +30499,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  groundRadius: 0.2
+  groundRadius: 0.15
 --- !u!50 &1932008050
 Rigidbody2D:
   serializedVersion: 5
